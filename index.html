@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Concesionario | Autos | Camionetas </title>
+</head>
+<body>
+    <h1 class="title">El Concesionario</h1>
+    <p>El concesionario es un lugar lleno de emociones y expectativas, donde los amantes de los automóviles pueden descubrir su vehículo de ensueño. Con brillantes luces, pulcros pisos y una amplia gama de vehículos relucientes, el concesionario es un verdadero paraíso para los entusiastas de los automóviles
+    
+    <ul class="ul">
+        <li>
+            <a href="#title">Titulo</a>
+        </li>
+        <li>
+            <a href="#form">Formulario</a>
+        </li>
+        <li>
+            <a href="#galeria">Galeria</a>
+        </li>
+    </ul>
+
+    <h2>Autos</h2>
+    
+    <section class="galeria">
+
+        <img src="img/auto1.jpg" alt="auto 1">
+        <img src="img/auto2.jpg" alt="auto 2">
+        <img src="img/auto3.png" alt="auto 3">
+        <img src="img/auto4.jpg" alt="auto 4">
+        
+    </section>
+    
+    
+    <form class="form">
+        <label for="nombre">Nombre: </label>
+        <input type="text" placeholder="Ingrese su nombre"> 
+
+        <label for="Apellido">Apellido: </label>
+        <input type="text" placeholder="Ingrese su apellido">
+
+        <label for="email">Correo electrónico: </label>
+        <input type="email" placeholder="example@gmail.com"> 
+
+        <label for="password">Password: </label>
+        <input type="password" placeholder="Ingrese su contraseña"> 
+
+        <input type="submit" onclick='enviarAlerta()'>
+    </form>
+
+    <script>
+
+        function enviarAlerta() {
+            alert("Se envió correctamente");
+        };
+
+    </script>
+</body>
+</html>
